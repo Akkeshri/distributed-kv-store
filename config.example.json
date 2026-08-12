@@ -1,0 +1,15 @@
+{
+  "clusterName": "local-kv",
+  "replicationFactor": 3,
+  "readQuorum": 2,
+  "writeQuorum": 2,
+  "virtualNodesPerNode": 64,
+  "heartbeatIntervalMs": 1000,
+  "failureTimeoutMs": 5000,
+  "suspectTimeoutMs": 3000,
+  "dataDir": "./data",
+  "maxKeyLength": 256,
+  "maxValueSize": 1048576,
+  "conflictStrategy": "lww",
+  "readRepair": true
+}
